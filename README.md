@@ -8,12 +8,12 @@ The type of clock imagined here looks like:
 
 Binary clocks typically use a 24 hour clock and display the time by representing each digit of each component with its binary equivalent using a column of 4 rows, each row representing a power of 2 (2^0 thru 2^3). In decimal, each column to represents a decimal number from 0 to 15.
 
-| 2^n | H | H | M | M | S | S |
-|:--|:--|:--|:--|:--|:--|:--|
-| 3 | - | 0 | - | 1 | - | 1 |
-| 2 | - | 0 | 0 | 0 | 1 | 0 |
-| 1 | 1 | 0 | 1 | 0 | 0 | 0 |
-| 0 | 0 | 0 | 1 | 1 | 1 | 1 |
+| n | 2^n | H | H | M | M | S | S |
+|:--|:--|:--|:--|:--|:--|:--|:--|
+| 3 | 8 | - | 0 | - | 1 | - | 1 |
+| 2 | 4 | - | 0 | 0 | 0 | 1 | 0 |
+| 1 | 2 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 1 | 1 | 1 | 1 |
 
 Notice that some time components can't go as high as the binary column is capable of representing. Columns where the decimal place for that time component can't go that high are displayed as "-" to denote that those bits aren't used.
 
