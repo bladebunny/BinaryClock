@@ -2,8 +2,9 @@
 
 This project is a simple demonstration of one way to create a binary clock in HTML and Javascript.
 
-The type of clock imagined here looks like:\
-![Binary Clock example](/binaerewanduhr.jpg=400x400)
+The type of clock imagined here looks like:
+
+<img src="binaerewanduhr.jpg" width=400 align=center>\
 
 Binary clocks typically use a 24 hour clock and display the time by representing each digit of each component with its binary equivalent using a column of 4 rows, each row representing a power of 2 (2^0 thru 2^3). In decimal, each column to represents a decimal number from 0 to 15.
 
