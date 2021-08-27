@@ -1,0 +1,44 @@
+body {
+    margin: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.off {
+    background-color: #444;
+}
+
+.on {
+    background-color: #4444F0;
+}
+
+.clear {
+    background-color: #FFFFFF00;
+}
+
+.log-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #000;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.log {
+    margin: auto;
+    color: white;
+    text-align: center;
+}
